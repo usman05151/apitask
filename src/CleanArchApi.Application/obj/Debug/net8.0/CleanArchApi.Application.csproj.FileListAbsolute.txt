@@ -1,0 +1,15 @@
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Application/bin/Debug/net8.0/CleanArchApi.Application.deps.json
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Application/bin/Debug/net8.0/CleanArchApi.Application.dll
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Application/bin/Debug/net8.0/CleanArchApi.Application.pdb
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Application/bin/Debug/net8.0/CleanArchApi.Domain.dll
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Application/bin/Debug/net8.0/CleanArchApi.Domain.pdb
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Application/obj/Debug/net8.0/CleanArchApi.Application.csproj.AssemblyReference.cache
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Application/obj/Debug/net8.0/CleanArchApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Application/obj/Debug/net8.0/CleanArchApi.Application.AssemblyInfoInputs.cache
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Application/obj/Debug/net8.0/CleanArchApi.Application.AssemblyInfo.cs
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Application/obj/Debug/net8.0/CleanArchApi.Application.csproj.CoreCompileInputs.cache
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Application/obj/Debug/net8.0/CleanArc.2965FBF3.Up2Date
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Application/obj/Debug/net8.0/CleanArchApi.Application.dll
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Application/obj/Debug/net8.0/refint/CleanArchApi.Application.dll
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Application/obj/Debug/net8.0/CleanArchApi.Application.pdb
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Application/obj/Debug/net8.0/ref/CleanArchApi.Application.dll

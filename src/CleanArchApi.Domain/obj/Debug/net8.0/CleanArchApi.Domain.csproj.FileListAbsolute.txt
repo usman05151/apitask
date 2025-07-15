@@ -1,0 +1,11 @@
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Domain/bin/Debug/net8.0/CleanArchApi.Domain.deps.json
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Domain/bin/Debug/net8.0/CleanArchApi.Domain.dll
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Domain/bin/Debug/net8.0/CleanArchApi.Domain.pdb
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Domain/obj/Debug/net8.0/CleanArchApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Domain/obj/Debug/net8.0/CleanArchApi.Domain.AssemblyInfoInputs.cache
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Domain/obj/Debug/net8.0/CleanArchApi.Domain.AssemblyInfo.cs
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Domain/obj/Debug/net8.0/CleanArchApi.Domain.csproj.CoreCompileInputs.cache
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Domain/obj/Debug/net8.0/CleanArchApi.Domain.dll
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Domain/obj/Debug/net8.0/refint/CleanArchApi.Domain.dll
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Domain/obj/Debug/net8.0/CleanArchApi.Domain.pdb
+/home/usman/Desktop/clean/CleanArchApi/src/CleanArchApi.Domain/obj/Debug/net8.0/ref/CleanArchApi.Domain.dll
