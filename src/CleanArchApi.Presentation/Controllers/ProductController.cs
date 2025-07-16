@@ -50,11 +50,7 @@ public class ProductController : ControllerBase
 		}
 		return BadRequest(ModelState);
 	}
-		[HttpGet("test-exception")]
-		public IActionResult TestException()
-		{
-			throw new Exception("Test from Exceptional!");
-		}
+	
 	[HttpGet("{Id}")]
 	public async Task<ActionResult> DeletePRod(int Id)
 	{
