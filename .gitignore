@@ -1,0 +1,9 @@
+# .NET Core
+bin/
+obj/
+*.csproj.user
+*.suo
+*.cache
+*.user
+*.pdb
+*.dll

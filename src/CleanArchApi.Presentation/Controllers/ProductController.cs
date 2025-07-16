@@ -3,6 +3,8 @@ using CleanArchApi.Application.Services;
 using CleanArchApi.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace CleanArchApi.Presentation.Controllers;
 
@@ -11,16 +13,27 @@ namespace CleanArchApi.Presentation.Controllers;
 public class ProductController : ControllerBase
 {
 	private readonly ProductService _pr;
+	private readonly IMemoryCache _cache;
+	private const string CacheKey = "AllProducts";
 
-	public ProductController(ProductService pr)
+	public ProductController(ProductService pr, IMemoryCache cache)
 	{
 		_pr = pr;
+		_cache = cache;
 	}
 
 	[HttpGet]
 	public async Task<ActionResult> GetAllProds()
 	{
+		const string cacheKey = "AllProducts";
+		if (_cache.TryGetValue(cacheKey, out var data))
+		{
+			Console.WriteLine("Loading From Cache");
+			return Ok(data);
+		}
+		Console.WriteLine("Not Loading From Cache");
 		var Prods = await _pr.GetAllProduct();
+		_cache.Set(cacheKey, Prods, TimeSpan.FromMinutes(5));
 		return Ok(Prods);
 	}
 
@@ -30,8 +43,10 @@ public class ProductController : ControllerBase
 		if (ModelState.IsValid)
 		{
 			await _pr.AddProducts(prod);
+			
 
 			return CreatedAtAction(nameof(GetAllProds), new { id = prod.Id }, prod);
+
 		}
 		return BadRequest(ModelState);
 	}

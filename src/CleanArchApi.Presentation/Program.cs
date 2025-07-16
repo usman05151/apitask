@@ -15,19 +15,22 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
+builder.Services.AddMemoryCache();
 
 //conn string 
 var Excestring = builder.Configuration["Exceptional:Store:ConnectionString"];
 builder.Services.AddDbContext<AppDbContext>(Options => Options.UseMySql(Excestring, new MySqlServerVersion(new Version(8, 0, 21))));
-builder.Services.AddScoped<IProductRepository, ProductRepositry>();
-// register the service
-builder.Services.AddScoped<ProductService>();
-
 // exception handling 
 builder.Services.AddExceptional(builder.Configuration.GetSection("Exceptional"), Options =>
 {
     Options.UseExceptionalPageOnThrow = builder.Environment.IsDevelopment();
 });
+
+builder.Services.AddScoped<IProductRepository, ProductRepositry>();
+// register the service
+builder.Services.AddScoped<ProductService>();
+
+
 
 var app = builder.Build();
 
